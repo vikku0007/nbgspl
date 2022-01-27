@@ -1,0 +1,396 @@
+Uri: https://nbgspl.com/
+File Name: C:\Users\hp\Desktop\nbgspl.com\index.htm
+Content Type: text/html
+
+Uri: https://nbgspl.com/image/slider-4.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\slider-4.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/wh2.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\wh2.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/wh1.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\wh1.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/wh3.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\wh3.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/icon/icon.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\icon\icon.png
+Content Type: image/png
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Users\hp\Desktop\nbgspl.com\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://nbgspl.com/css/bootstrap.min.css
+File Name: C:\Users\hp\Desktop\nbgspl.com\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://nbgspl.com/css/mdb.min.css
+File Name: C:\Users\hp\Desktop\nbgspl.com\css\mdb.min.css
+Content Type: text/css
+
+Uri: https://nbgspl.com/css/owl.carousel.min.css
+File Name: C:\Users\hp\Desktop\nbgspl.com\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://nbgspl.com/css/owl.theme.default.min.css
+File Name: C:\Users\hp\Desktop\nbgspl.com\css\owl.theme.default.min.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+File Name: C:\Users\hp\Desktop\nbgspl.com\css2.css
+Content Type: text/css
+
+Uri: https://nbgspl.com/css/style.css
+File Name: C:\Users\hp\Desktop\nbgspl.com\css\style.css
+Content Type: text/css
+
+Uri: https://nbgspl.com/index.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\index.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/about-us.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\about-us.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/ios.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\ios.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/web-application.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\web-application.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/erp.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\erp.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/crm.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\crm.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/cms.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\cms.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/iot.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\iot.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/outsourcing.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\outsourcing.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/staffing.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\staffing.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/resource-deployment.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\resource-deployment.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/career.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\career.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/contact-us.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\contact-us.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/Nota-Bene-Global-Services-Pvt-Ltd-110604857226762/
+File Name: C:\Users\hp\Desktop\nbgspl.com\Nota-Bene-Global-Services-Pvt-Ltd-110604857226762\index.htm
+Content Type: text/html
+
+Uri: https://nbgspl.com/privacy-policy.html
+File Name: C:\Users\hp\Desktop\nbgspl.com\privacy-policy.html
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/ns.html?id=GTM-NWCZDPF
+File Name: C:\Users\hp\Desktop\nbgspl.com\ns.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/image/NB-Final.svg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\NB-Final.svg
+Content Type: image/svg+xml
+
+Uri: https://nbgspl.com/image/shape1.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\shape1.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/sdt.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\sdt.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/tab2.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\tab2.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/tab1.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\tab1.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/tab3.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\tab3.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/1.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\1.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/2.jpeg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\2.jpeg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/3.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\3.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/5.jpeg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\5.jpeg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/6.jpeg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\6.jpeg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/7.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\7.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/8.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\8.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/9.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\9.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/10.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\10.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/11.jpeg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\11.jpeg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/13.jpeg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\13.jpeg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/14.jpeg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\14.jpeg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/c15.svg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c15.svg
+Content Type: image/svg+xml
+
+Uri: https://nbgspl.com/image/c16.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c16.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/js/jquery-3.4.1.min.js
+File Name: C:\Users\hp\Desktop\nbgspl.com\js\jquery-3.4.1.min.js
+Content Type: application/javascript
+
+Uri: https://nbgspl.com/js/popper.min.js
+File Name: C:\Users\hp\Desktop\nbgspl.com\js\popper.min.js
+Content Type: application/javascript
+
+Uri: https://nbgspl.com/js/bootstrap.min.js
+File Name: C:\Users\hp\Desktop\nbgspl.com\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://nbgspl.com/js/mdb.min.js
+File Name: C:\Users\hp\Desktop\nbgspl.com\js\mdb.min.js
+Content Type: application/javascript
+
+Uri: https://nbgspl.com/js/owl.carousel.js
+File Name: C:\Users\hp\Desktop\nbgspl.com\js\owl.carousel.js
+Content Type: application/javascript
+
+Uri: https://nbgspl.com/js/custom.js
+File Name: C:\Users\hp\Desktop\nbgspl.com\js\custom.js
+Content Type: application/javascript
+
+Uri: https://nbgspl.com/image/banner2.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\banner2.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/slider-8.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\slider-8.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/call-bg.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\call-bg.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/slider-10.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\slider-10.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/video1.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\video1.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/vp1.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\vp1.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/vp2.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\vp2.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/vp3.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\vp3.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/vp4.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\vp4.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/vision1.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\vision1.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/goals.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\goals.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/expectation.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\expectation.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/Feedback.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\Feedback.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/treat-everyone.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\treat-everyone.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/tools-resources.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\tools-resources.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/sucess.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\sucess.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/website-banner.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\website-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/ios1.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\ios1.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/ios2.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\ios2.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/ios3.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\ios3.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/wd2.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\wd2.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/web-d.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\web-d.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/crm-web.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\crm-web.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/cms.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\cms.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/iot.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\iot.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/outsourcing.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\outsourcing.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/about-2.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\about-2.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/resource-banner.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\resource-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/career-banner.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\career-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/c1.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c1.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c2.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c2.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c3.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c3.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c5.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c5.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c6.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c6.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c7.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c7.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c10.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c10.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/c11.png
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\c11.png
+Content Type: image/png
+
+Uri: https://nbgspl.com/image/ap.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\ap.jpg
+Content Type: image/jpeg
+
+Uri: https://nbgspl.com/image/contact-banner.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\contact-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://123movies-to.org/
+File Name: C:\Users\hp\Desktop\nbgspl.com\index-1.htm
+Content Type: text/html
+
+Uri: https://www.embedgooglemap.net/
+File Name: C:\Users\hp\Desktop\nbgspl.com\index-2.htm
+Content Type: text/html
+
+Uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.15639592064!2d-80.13871668549214!3d26.32143479163065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91daebac78a7b:0x2b4bfdb67b384bfd!2s2440 DC Country Club Boulevard %23101C%2C Deerfield Beach%2C FL 33442%2C USA!5e0!3m2!1sen!2sin!4v1615815141977!5m2!1sen!2sin
+File Name: C:\Users\hp\Desktop\nbgspl.com\maps\embed.html
+Content Type: text/html
+
+Uri: https://nbgspl.com/image/privacy-banner.jpg
+File Name: C:\Users\hp\Desktop\nbgspl.com\image\privacy-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sH-49,+First+Floor,+Nota+Bene+Global+services+Pvt.+Ltd,+Sector+63+Noida!6i13
+File Name: C:\Users\hp\Desktop\nbgspl.com\maps\embed-1.html
+Content Type: text/html
+
