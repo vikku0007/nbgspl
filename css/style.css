@@ -2331,4 +2331,19 @@ html.modal-active, body.modal-active {
     .custom-shape-divider-bottom-1634717805 .shape-fill {
         fill: #FFFFFF;
     }
+    @media (max-width:720px){
+        .card-pink, .card-blue{
+            margin-bottom: 20px;
+
+        }
+        .mt20{margin-top: 20px;}
+
+    }
+    .card-img-top{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        max-height: 200px;
+    }
 /* Rupali css end */
