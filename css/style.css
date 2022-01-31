@@ -2512,6 +2512,7 @@ html.modal-active, body.modal-active {
         .testimonial-section .testimonial-carousel{
           margin:0px 0px;
         }
+        .testimonial-block .inner-box{padding:20px 15xp;}
 
     }
     .card-img-top{
