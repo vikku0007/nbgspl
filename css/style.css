@@ -2441,7 +2441,7 @@ html.modal-active, body.modal-active {
       padding-right: 20px;
     }
   }
-/*End*/
+
 /*End*/
 /* Rupali css start */
 .card-pink{
@@ -2509,6 +2509,9 @@ html.modal-active, body.modal-active {
 
         }
         .mt20{margin-top: 20px;}
+        .testimonial-section .testimonial-carousel{
+          margin:0px 0px;
+        }
 
     }
     .card-img-top{
