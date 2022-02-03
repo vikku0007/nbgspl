@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<title>NBAcademy</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
+	<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+	<link rel="stylesheet" href="vendors/animation/animate.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/slick/slick.css">
+	<link rel="stylesheet" href="vendors/slick/slick-theme.css">
+	<link rel="stylesheet" href="vendors/magnify-pop/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+	<link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="vendors/elagent/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="../css/style.css"> 
+    <style>
+        #exampleModal .modal-dialog.modal-xl {max-width: 900px;}
+        button.set-current {
+            font-size: 12px;
+			color: #fff;
+			background: #e0285b;
+			border: 0;
+			width: 150px;
+			padding: 6px 8px;
+			margin-top: 0;
+			display: block;
+			position: relative;
+			overflow: visible;
+			border-radius: 0px 5px 5px 0px;
+			margin-top: 0;
+			margin-left: 0px;
+        }
+        .result a {
+            display: block;
+            width: 100%;
+            background: aliceblue;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius:5px;
+            word-break:break-all;
+        }
+        .modal-footer>:not(:first-child) {
+            margin-left: 0.25rem;
+            font-size: 16px;
+            color: #fff;
+            background: #e0285b;
+            border: 0;
+            margin-top: 0;
+            display: block;
+            position: relative;
+            overflow: visible;
+            border-radius: 5px;
+        }
+		.aliCenter{
+			align-items: center;
+		}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="header" data-offset="80">
+	<div id="preloader">
+		<div id="ctn-preloader" class="ctn-preloader">
+			<div class="animation-preloader">
+				<div class="spinner"></div>
+				<div class="txt-loading"> <span data-text-preloader="N" class="letters-loading">
+N
+</span> <span data-text-preloader="B" class="letters-loading">
+B
+</span> <span data-text-preloader="G" class="letters-loading">
+G
+</span> <span data-text-preloader="S" class="letters-loading">
+S
+</span> <span data-text-preloader="P" class="letters-loading">
+P
+</span> <span data-text-preloader="L" class="letters-loading">
+L
+</span>
+					<!-- <span data-text-preloader="N" class="letters-loading">
+N
+</span>
+<span data-text-preloader="D" class="letters-loading">
+D
+</span> --></div>
+				<p class="text-center">Loading</p>
+			</div>
+			<div class="loader">
+				<div class="row">
+					<div class="col-3 loader-section section-left">
+						<div class="bg"></div>
+					</div>
+					<div class="col-3 loader-section section-left">
+						<div class="bg"></div>
+					</div>
+					<div class="col-3 loader-section section-right">
+						<div class="bg"></div>
+					</div>
+					<div class="col-3 loader-section section-right">
+						<div class="bg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="body_wrapper">
+		<header class="header_area">
+			<nav class="navbar navbar-expand-lg menu_one" id="landing_page">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"><img src="https://logos-download.com/wp-content/uploads/2020/06/GCash_Logo_text.png" srcset="https://logos-download.com/wp-content/uploads/2020/06/GCash_Logo_text.png 2x" alt="logo"></a> <a class="btn_get btn_hover mobile_btn ml-auto" href="#get-app">Get Started</a>
+					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="menu_toggle">
+<span class="hamburger">
+<span></span> <span></span> <span></span> </span> <span class="hamburger-cross">
+<span></span> <span></span> </span>
+						</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav mr-auto ml-auto menu">
+							<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+							<li class="nav-item"><a class="nav-link" href="#demoVideo">Demo Video</a></li>
+							<li class="nav-item"><a class="nav-link" href="#feedback">Customer Feedback</a></li>
+							<li class="nav-item"><a class="nav-link" href="#getNBAcademy">Get NBAcademy Now</a></li>
+							<li class="nav-item"><a class="nav-link" href="#exampleModal" data-toggle="modal">Schedule Call</a></li>
+						</ul>
+						<div class="tracking_btn"> <a class="er_btn btn_hover" href="#get-app"><i class="icon_cart_alt"></i>TRY DEMO</a> </div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="banner_area d-flex align-items-center" id="apps_craft_animation">
+			<div class="image_mockup">
+				<div class="one_img wow slideInnew" data-wow-delay="0.2s">
+					<!-- <div class="layer layer2" data-depth="0.5"><img src="img/demo/tablet_04.png" alt=""></div> --></div>
+				<div class="one_img wow slideInnew" data-wow-delay="0.4s">
+					<div class="layer layer2" data-depth="0.25"><img src="img/demo/mackbook.png" alt=""></div>
+				</div>
+				<div class="one_img wow slideInnew" data-wow-delay="0.6s">
+					<!-- <div class="layer layer2" data-depth="0.6"><img src="img/demo/iphonex1.png" alt=""></div> --></div>
+				<div class="one_img wow slideInnew" data-wow-delay="0.8s">
+					<div class="layer layer2" data-depth="0.20"><img src="img/demo/tablet_01.png" alt=""></div>
+				</div>
+				<div class="one_img wow slideInnew" data-wow-delay="0.9s">
+					<div class="layer layer2" data-depth="0.10"><img src="img/demo/tablet_03.png" alt=""></div>
+				</div>
+				<div class="one_img wow slideInnew" data-wow-delay="1s">
+					<div class="layer layer2" data-depth="0.30"><img src="img/demo/tablet_02.png" alt=""></div>
+				</div>
+				<div class="one_img wow zoomIn" data-wow-delay="0.9s">
+					<div class="layer layer2" data-depth="0.10"><img src="img/demo/circle1.png" alt=""></div>
+				</div>
+				<div class="one_img" data-parallax='{"x": 0, "y": 100, "rotateZ":0}'><img class="faa-spin animated" src="img/demo/circle-2.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": -180, "y": 80, "rotateY":2000}'><img src="img/demo/shape_02.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": 250, "y": 160, "rotateZ":500}'><img src="img/demo/shape_03.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": 20, "y": -100, "rotateZ":0}'><img src="img/demo/shape_04.png" alt=""></div>
+				<div class="one_img"><img src="img/demo/shape_05.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": 0, "y": 100, "rotateZ":0}'><img src="img/demo/shape_06.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": 250, "y": 360, "rotateZ":500}'><img src="img/demo/shape_07.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": -180, "y": 80, "rotateY":2000}'><img src="img/demo/shape_08.png" alt=""></div>
+				<div class="one_img" data-parallax='{"x": -10, "y": 80, "rotateY":0}'><img src="img/demo/dot.png" alt=""></div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="banner_text">
+							<h2 class="wow fadeInUp" data-wow-delay="0.2s">Manage Customers, Projects, And Create Invoices In The Cloud <mark><span class="typed"></span></mark> and more.</h2>
+							<p class="wow fadeInUp" data-wow-delay="0.4s">Customer Relationship Management software that is a great fit for almost any small business, freelancer or many other uses. </p> <a href="#fe" class="dmeo_banner_btn wow fadeInUp scrolls" data-wow-delay="0.6s">Explore Features</a> </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="demo_features_area sec_pad" id="features">
+			<div class="container custom_container_two">
+				<div class="section_title text-center wow fadeInUp" data-wow-delay="0.2s">
+					<h2><span>FEATURES AND BENEFITS</span><br>Explore the awesome NBAcademy CRM features<br> that will help you get your business to the next level.</h2> </div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft"> <img src="img/demo/features_1.png" alt="">
+							<div class="content">
+								<h3>PROJECT MANAGEMENT TOOL</h3>
+								<p>Manage and invoice projects with the powerful project management feature. Track expenses and time spent on tasks and bill your customers. Ability to assign multiple staff members on task and track time logged by assigned project member.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1 col-md-6">
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.2s"> <img src="img/demo/features_2.png" alt="">
+							<div class="content">
+								<h3>ONE CLICK INVOICE CREATION</h3>
+								<p>Build professional and great looking invoices. Attach files and send directly to your clients including the invoice PDF. Invoice with different tax based on item. Create recurring invoices who will be regenerated automatically based on your setup for recurring invoice (every X months). You can set recurring starting from 1 month to 12 months.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1 col-md-6" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.4s"> <img src="img/demo/features_3.png" alt="">
+							<div class="content">
+								<h3>CREATE ESTIMATES</h3>
+								<p>Create estimate within a minute. Sent to your customers and wait to accept. Ability to auto convert the estimate to invoice after customer accept. You customers can view and make actions the estimate even without login.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6" data-parallax='{"x": 0, "y": -25, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.6s"> <img src="img/demo/features_4.png" alt="">
+							<div class="content">
+								<h3>CREATE GOOD LOOKING PROPOSALS</h3>
+								<p>Create good looking proposals and impress your potential clients or customers. Include images, tables, youtube vides with the powerful editor. Proposals comments allowed for further discussion with the customer.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1 col-md-6">
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.8s"> <img src="img/demo/features_5.png" alt="">
+							<div class="content">
+								<h3>LEADS MANAGEMENT</h3>
+								<p>With the simple Kan Ban you can keep track of leads and easily follow their progress.Attach files, convert lead to customer, auto import leads from email, create proposals, leave notes. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1 col-md-6" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.9s"> <img src="img/demo/features_6.png" alt="">
+							<div class="content">
+								<h3>RECORD EXPENSES</h3>
+								<p>Record company expenses. Set up a recurring expense and the expense will automatically be created afterthe specified period. The period time could be days, weeks, months or years. Ability to set expenses billable to customers or projects.</p>
+							</div>
+						</div>
+					</div>
+					<!-- this is addiosnal  -->
+					<div class="col-lg-3 col-md-6" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft"> <img src="img/demo/features_1.png" alt="">
+							<div class="content">
+								<h3>PROJECT MANAGEMENT TOOL</h3>
+								<p>Manage and invoice projects with the powerful project management feature. Track expenses and time spent on tasks and bill your customers. Ability to assign multiple staff members on task and track time logged by assigned project member.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1 col-md-6">
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.2s"> <img src="img/demo/features_2.png" alt="">
+							<div class="content">
+								<h3>ONE CLICK INVOICE CREATION</h3>
+								<p>Build professional and great looking invoices. Attach files and send directly to your clients including the invoice PDF. Invoice with different tax based on item. Create recurring invoices who will be regenerated automatically based on your setup for recurring invoice (every X months). You can set recurring starting from 1 month to 12 months.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1 col-md-6" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.4s"> <img src="img/demo/features_3.png" alt="">
+							<div class="content">
+								<h3>CREATE ESTIMATES</h3>
+								<p>Create estimate within a minute. Sent to your customers and wait to accept. Ability to auto convert the estimate to invoice after customer accept. You customers can view and make actions the estimate even without login.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft"> <img src="img/demo/features_1.png" alt="">
+							<div class="content">
+								<h3>PROJECT MANAGEMENT TOOL</h3>
+								<p>Manage and invoice projects with the powerful project management feature. Track expenses and time spent on tasks and bill your customers. Ability to assign multiple staff members on task and track time logged by assigned project member.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1 col-md-6">
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.2s"> <img src="img/demo/features_2.png" alt="">
+							<div class="content">
+								<h3>ONE CLICK INVOICE CREATION</h3>
+								<p>Build professional and great looking invoices. Attach files and send directly to your clients including the invoice PDF. Invoice with different tax based on item. Create recurring invoices who will be regenerated automatically based on your setup for recurring invoice (every X months). You can set recurring starting from 1 month to 12 months.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1 col-md-6" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.4s"> <img src="img/demo/features_3.png" alt="">
+							<div class="content">
+								<h3>CREATE ESTIMATES</h3>
+								<p>Create estimate within a minute. Sent to your customers and wait to accept. Ability to auto convert the estimate to invoice after customer accept. You customers can view and make actions the estimate even without login.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft"> <img src="img/demo/features_1.png" alt="">
+							<div class="content">
+								<h3>PROJECT MANAGEMENT TOOL</h3>
+								<p>Manage and invoice projects with the powerful project management feature. Track expenses and time spent on tasks and bill your customers. Ability to assign multiple staff members on task and track time logged by assigned project member.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1 col-md-6">
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.2s"> <img src="img/demo/features_2.png" alt="">
+							<div class="content">
+								<h3>ONE CLICK INVOICE CREATION</h3>
+								<p>Build professional and great looking invoices. Attach files and send directly to your clients including the invoice PDF. Invoice with different tax based on item. Create recurring invoices who will be regenerated automatically based on your setup for recurring invoice (every X months). You can set recurring starting from 1 month to 12 months.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1 col-md-6" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+						<div class="features_item wow fadeInLeft" data-wow-delay="0.4s"> <img src="img/demo/features_3.png" alt="">
+							<div class="content">
+								<h3>CREATE ESTIMATES</h3>
+								<p>Create estimate within a minute. Sent to your customers and wait to accept. Ability to auto convert the estimate to invoice after customer accept. You customers can view and make actions the estimate even without login.</p>
+							</div>
+						</div>
+					</div>
+					<!-- this is addiosnal  -->
+				</div>
+			</div>
+		</section>
+		<section class="elemator_area sec_pad" id="demoVideo">
+			<div class="container custom_container">
+				<div class="section_title text-center">
+					<h2><span>Demo</span><br>Drag-n-Drop Visual Builder</h2>
+					<p>NBAcademy is built upon Elementor, one of the most advanced, easy-to-use page builders inmodern days. Its intuitive, front end builder enables you to make necessary changes on your web-page and its preview panel gives you real-time view of what you are achieving. Pure fun!</p>
+				</div>
+				<div class="elemator_inner">
+					<div class="elemetor_img one" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
+						<div class="wow fadeIn"><img src="img/demo/011.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img two" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
+						<div class="wow fadeIn" data-wow-delay="0.1s"><img src="img/demo/022.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img three" data-parallax='{"x": 0, "y": -12, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.3s"><img src="img/demo/033.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img four" data-parallax='{"x": 0, "y": -22, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.4s"><img src="img/demo/044.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img five" data-parallax='{"x": 0, "y": -25, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.5s"><img src="img/demo/055.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img six" data-parallax='{"x": 0, "y": -10, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.6s"><img src="img/demo/066.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img seven" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+						<div class="wow fadeInUp"><img src="img/demo/066-1.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img eight" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.2s"> <img src="img/demo/r011.jpg" alt=""> </div>
+					</div>
+					<div class="elemetor_img nine" data-parallax='{"x": 0, "y": -8, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.4s"><img src="img/demo/r022.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img ten" data-parallax='{"x": 0, "y": 12, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.5s"><img src="img/demo/r033.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img eleven" data-parallax='{"x": 0, "y": 22, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.6s"><img src="img/demo/r044.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img r_one" data-parallax='{"x": 0, "y": 5, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.1s"><img src="img/demo/r055.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img r_two" data-parallax='{"x": 0, "y": 8, "rotateZ":0}'>
+						<div class="wow fadeInUp" data-wow-delay="0.9s"><img src="img/demo/r066.jpg" alt=""></div>
+					</div>
+					<div class="elemetor_img r_three" data-parallax='{"x": 0, "y": 40, "rotateZ":0}'><img src="img/demo/r077.jpg" alt=""></div>
+					<div class="elemator_img"> <img class="e_log" src="img/demo/elemator_log.png" alt=""> <img class="img-fluid" src="img/demo/elemetor.png" alt=""> </div>
+				</div>
+			</div>
+		</section>
+		<section class="demo_feature_area"> <img class="f_shap f_shap_one" src="img/demo/f_shap.png" alt=""> <img class="f_shap f_shap_two" src="img/demo/f_shap_two.png" alt="">
+			<div class="container custom_container">
+				<div class="row flex-row-reverse align-items-center f_one">
+					<div class="col-lg-6">
+						<div class="f_img wow fadeInRight" data-wow-delay="0.2s"> <img src="img/demo/f_img.png" alt=""> </div>
+					</div>
+					<div class="col-lg-6">
+						<div class="f_content">
+							<div class="g_logo wow fadeInUp"> <img src="img/demo/finger-two.png" alt=""> </div>
+							<h2 class="wow fadeInUp">Import demo contents in minutes and jump start your website. </h2>
+							<p class="wow fadeInUp" data-wow-delay="0.2s">Using the one-click importer you will get all pages and posts, widgets, theme options and more. If you want to use a page that you see in live preview or some elements from it, just import it. You will get it as you see in the review, now start editing and enjoy!</p>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center f_two">
+					<div class="col-lg-6">
+						<div class="f_img wow fadeInLeft" data-wow-delay="0.2s"> <img src="img/demo/f_img_two.png" alt=""> </div>
+					</div>
+					<div class="col-lg-6">
+						<div class="f_content">
+							<div class="g_logo wow fadeInUp"> <img src="img/demo/g_b.png" alt=""> </div>
+							<h2 class="wow fadeInUp" data-wow-delay="0.2s">WordPress 5.x Compatible.<br> Fully Gutenberg Ready </h2>
+							<p class="wow fadeInUp" data-wow-delay="0.4s">SaasLand is constantly updated, tested and is compatible with latest WordPress builds. Also it is fully ready for Gutenberg content editor - now you can enjoy the latest WYSIWYG editor provided by WordPress and edit contents with ease.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="typography_part">
+			<div class="container custom_container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-4 col-md-6">
+						<div class="typgraphy_content">
+							<h5 class=" wow fadeInUp" data-wow-delay="200ms">Awesome Typography</h5>
+							<h2 class=" wow fadeInUp" data-wow-delay="300ms">Google Fonts and <span class="mark_text"> Custom <br>
+Fonts </span>Support</h2>
+							<p class=" wow fadeInUp" data-wow-delay="400ms">So I said owt to do with me at public school Eaton bog-standard up the duff the bee's knees pardon me spiffing barney bobby the wireless I cheeky bugger, fanny around fantastic gutted mate brolly.!</p> <a href="#" class="btn_1 wow fadeInUp" data-wow-delay="600ms">By NBAcademy</a> </div>
+					</div>
+					<div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="600ms">
+						<div class="typgraphy_img"> <img src="img/demo/typography_img.png" alt="#" class="img-fluid"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="circle_shape_1 wow fadeInUp" data-wow-delay="600ms"></div>
+		</section>
+		<section class="testimonial_area" id="feedback">
+			<div class="container">
+				<div class="section_title text-center">
+					<h2 class=" wow fadeInUp" data-wow-delay="400ms"><span>Real Customer Feedback</span><br>Still not impressed?<br> Don’t take our words, check what our customers say.</h2> </div>
+			</div>
+			<div class="test_inner">
+				<div class="testimonial_slider_demo" id="testimonial_demo_slider">
+					<div class="item">
+						<div class="content">
+							<div class="d-flex">
+								<div class="text">
+									<h5>Naim671102</h5> <span>Envato User</span> </div>
+								<div class="ratting"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+							</div>
+							<p>Excellent Theme, I just Loved the design & Features. After 7 Days of research for my service agency theme, I found this theme. Then I told myself, Yes That's the thing what are I looking for last 7 days. Also Reduces my 90% work. Thanks to the SaasLand Team. Keep Crushing with future updates more and more.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							<div class="d-flex">
+								<div class="text">
+									<h5>Malkhouly</h5> <span>Envato User</span> </div>
+								<div class="ratting"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+							</div>
+							<p>The theme is very easy to install and customize. The support team is very responsive and professional. I had an issue with Saasland WPML comparability and they rapidly fixed it. very much recommend this theme, well spent money. Thank you</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							<div class="d-flex">
+								<div class="text">
+									<h5>Onezeroart</h5> <span>Envato User</span> </div>
+								<div class="ratting"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+							</div>
+							<p>An Awesome Theme, I love it. Beautiful trending design and have many features. Especially love price table and various cool elements. Highly recommended.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							<div class="d-flex">
+								<div class="text">
+									<h5>Ronyquispetkm</h5> <span>Envato User</span> </div>
+								<div class="ratting"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+							</div>
+							<p>Excellent work, the only thing I ask is to optimize for SEO I use for blog and landing page and it shows a bit slow and the import of the demo takes a long time please delete unnecessary files. Everything else excellent I hope you keep improving with future updates.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							<div class="d-flex">
+								<div class="text">
+									<h5>Dbernaert</h5> <span>Envato User</span> </div>
+								<div class="ratting"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+							</div>
+							<p>Great support!
+								<br>I had a question and 5 minutes later I got a reply for my question!
+								<br> Great!</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							<div class="d-flex">
+								<div class="text">
+									<h5>MountainDev</h5> <span>Envato User</span> </div>
+								<div class="ratting"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+							</div>
+							<p>Good customer support. Quick and efficient responses. Nice looking theme with lots of
+								<br> layout options.
+								<br>Cheers! </p>
+						</div>
+					</div>
+				</div>
+				<div class="arrow"> <i class="ti-arrow-left tprevs"></i> <i class="ti-arrow-right tnexts"></i> </div>
+			</div>
+		</section>
+		<footer class="footer_part" id="getNBAcademy">
+			<div class="container">
+				<a href="#" class="f_logo"><img src="img/demo/f_logo.png" srcset="img/demo/f_logo-2.png 2x" alt=""></a>
+				<h2 class="wow fadeInUp" data-wow-delay="0.2s">Grab NBAcademy, Get Started<br> and Grow Your Business. </h2> <a class="wow fadeInUp" data-wow-delay="0.4s" href="../../item/saasland-creative-wordpress-theme-for-saas-business/23362980.html"><i class="icon_cart_alt"></i>Get NBAcademy Now </a> </div>
+			<div class="one_img wow slideInnew footer_shap_1" data-wow-delay="1s">
+				<div class="layer layer2" data-depth="0.30"><img src="img/demo/shape/footer_shap_1.png" alt=""></div>
+			</div>
+			<div class="one_img wow slideInnew footer_shap_2" data-wow-delay="0.9s">
+				<div class="layer layer2" data-depth="0.10"><img src="img/demo/shape/footer_shap_2.png" alt=""></div>
+			</div> <img src="img/demo/shape/footer_shap_3.png" alt="#" class="footer_shap_3">
+			<div class="circle_shape_1"></div>
+		</footer>
+	</div>
+	<div class="footer-middle pt-95">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-12 col-12">
+					<div class="widget widgets-company-info">
+						<div class="footer-bottom-logo pb-40">
+							<a href="index.html"><img src="../image/logo3.png" alt="" style="height: 80px;"></a>
+						</div>
+						<div class="company-info-desc">
+							<p>We believe in achieving success by synergizing and working together to provide innovative digital solutions to our clients. </p>
+						</div>
+						<div class="follow-company-info pt-3">
+							<div class="follow-company-text mr-3">
+								<a href="javascript:void(0)">
+									<p>Follow Us</p>
+								</a>
+							</div>
+							<div class="follow-company-icon"> <a href="Nota-Bene-Global-Services-Pvt-Ltd-110604857226762/index.htm" target="_blank"><i class="fa fa-facebook"></i></a>
+								<!-- <a href="javascript:void(0)"><i class="fa fa-twitter"></i></a> --><a href="https://www.linkedin.com/company/nota-bene-global-services-private-limited" target="_blank"><i class="fa fa-linkedin"></i></a>
+								<!--   <a href="javascript:void(0)"><i class="fa fa-skype"></i></a> --></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-6 col-12">
+					<div class="widget widget-nav-menu">
+						<h4 class="widget-title pb-1">Our Services</h4>
+						<div class="row">
+							<div class="col-lg-6 col-sm-6 col-12">
+								<div class="menu-quick-link-container ml-4">
+									<ul id="menu-quick-link" class="menu">
+										<li><a href="ios.html">IOS, Android &amp; PWA</a></li>
+										<li><a href="web-application.html">Web Application</a></li>
+										<li><a href="erp.html">ERP</a></li>
+										<li><a href="crm.html">CRM</a></li>
+										<li><a href="cms.html">CMS</a></li>
+										<li><a href="iot.html">IoT</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6 col-12">
+								<div class="menu-quick-link-container ml-4">
+									<ul id="menu-quick-link" class="menu">
+										<li><a href="resource-deployment.html">Resource Deployment</a></li>
+										<!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+										<li><a href="staffing.html">Staffing</a></li>
+										<li><a href="outsourcing.html">Outsourcing</a></li>
+										<li><a href="contact-us.html">Contact Us</a></li>
+										<li><a href="career.html">Career</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12">
+					<div class="widget widgets-company-info mb-2">
+						<h3 class="widget-title pb-1">India</h3>
+						<div class="footer-social-info">
+							<p>
+								<!-- <span>Address :</span>  -->H-49, First Floor, ALPC Business Park, Sector 63 Noida (201301)</p>
+						</div>
+						<div class="footer-social-info">
+							<p><span>Phone :</span> <a href="tel:0120 4516927">+91 0120 4516927</a></p>
+						</div>
+						<div class="footer-social-info">
+							<p><span>Email :</span> <a href="mailto:hr@nbgspl.com">info@nbgspl.com</a></p>
+						</div>
+						<h3 class="widget-title pb-1">US</h3>
+						<div class="footer-social-info">
+							<p>
+								<!-- <span>Address :</span>  -->2440 Deer Creek Country Club BLVD 101C Deerfield Beach Florida (33442)</p>
+						</div>
+						<div class="footer-social-info">
+							<p><span>Phone :</span> <a href="tel:8005580776">+1-800-558-0776</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer-bottom mt-70 pt-3 pb-1">
+				<div class="col-lg-6 col-md-6">
+					<div class="footer-bottom-content">
+						<div class="footer-bottom-content-copy">
+							<p>© 2021 NBGSPL. All Rights Reserved. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="footer-bottom-right">
+						<div class="footer-bottom-right-text"> <a class="absod" href="privacy-policy.html">Privacy Policy </a>
+							<!-- <a href="terms.html"> Terms &amp; Conditions</a> --></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p class="text-center"><b>Create Schedule call</b></p>
+                <hr/>
+                <div id="google_calendar_20161211">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Title</span>
+                                	<input type="text" class="form-control" name="title" onfocus="this.select();" />
+                                </label>
+                            
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Start Date</span>
+									<div class="d-flex aliCenter">
+										<input type="datetime-local" class="form-control" name="date_start" />
+										<button type="button" class="set-current">Set Current Time</button>
+									</div>
+	                            </label>
+                           
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">END DATE</span>
+									<div class="d-flex aliCenter">
+										<input type="datetime-local" class="form-control" name="date_end" />
+										<button type="button" class="set-current">Set Current Time</button>
+									</div>
+	                            </label>
+                            
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Location</span>
+	                                <input type="text" name="location" class="form-control" onfocus="this.select();" /> 
+	                            </label>
+                            
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Details</span>
+	                                <textarea name="details" class="form-control" onfocus="this.select();"></textarea>
+	                            </label>
+                            
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Invitation Email Address</span>
+	                                <textarea name="add" class="form-control" onfocus="this.select();" placeholder="foo@bar.bazblog@pulipuli.info"></textarea>
+	                            </label>
+                            
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                            <div class="form-group">
+                                <div class="result"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/propper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="vendors/wow/wow.min.js"></script>
+	<script src="vendors/sckroller/jquery.parallax-scroll.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendors/slick/slick.min.js"></script>
+	<script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/bootstrap-selector/js/bootstrap-select.min.js"></script>
+	<script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+	<script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/main.js"></script>
+	<script defer="" src="../../beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6d49dc9dabbd860c","version":"2021.12.0","r":1,"token":"327f02abe4ab496bb762653489d2ae1d","si":100}' crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+    <script src="https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"></script>
+    
+    <script>
+        var _google_calendar_20161211 = function () {
+        var _panel = $("#google_calendar_20161211");
+        
+        var _title = _panel.find('[name="title"]').val().trim();
+        var _start_date = _panel.find('[name="date_start"]').val();
+        var _end_date = _panel.find('[name="date_end"]').val();
+        var _location = _panel.find('[name="location"]').val().trim();
+
+        // https://www.google.com/calendar/render?action=TEMPLATE&text=Your+Event+Name&dates=20140127T224000Z/20140320T221500Z&details=For+details,+link+here:+http://www.example.com&location=Waldorf+Astoria,+301+Park+Ave+,+New+York,+NY+10022&sf=true&output=xml
+
+        // "2014-01-27T224000Z/20140320T221500Z".replace(/\-/g, "")
+
+        var _details = _panel.find('[name="details"]').val().trim();
+        var _add = _panel.find('[name="add"]').val().trim();
+
+        var _url = "https://calendar.google.com/calendar/event?action=TEMPLATE";
+
+        if (_title !== '') {
+            _url = _url + "&text="+ _title ;
+        } 
+
+        if (_start_date !== '') {
+            var _dates = _start_date + "Z";
+            if (_end_date !== '') {
+                _dates = _dates + "/" + _end_date + "Z";
+            }
+
+            _dates = _dates.replace(/\-/g, "");
+            _dates = _dates.replace(/\:/g, "");
+
+            _url = _url + "&dates="+ _dates ;
+        } 
+
+        if (_location !== '') {
+            _url = _url + "&location="+ _location ;
+        }
+
+        if (_details !== '') {
+            _details = _details.replace(/\n/g, "+");
+            _details = _details.replace(/ /g, "+");
+            _url = _url + "&details="+ _details ;
+        }
+        if (_add !== '') {
+            _add = _add.replace(/\n/g, "+");
+            _add = _add.replace(/ /g, "+");
+            _url = _url + "&add="+ _add ;
+        }
+        
+        _url = encodeURI(_url);
+        
+        // --------------------
+        
+        var _result = _panel.find(".result");
+        _result.empty();
+        _result.append('<a target="_blank" href="' + _url  + '">' + _url +'</a>');
+        _result.append('<button tyle="button" class="btn" data-clipboard-text="' + _url + '">Copy to clipboard</button>');
+        new Clipboard('.btn');
+        _result.find("button").click(function (){ 
+            $(this).notify("Copied!",  {position: "right", className: "success"}); 
+        });
+        };
+
+        var _set_current = function () {
+            var d = new Date();
+        var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
+        
+            var local = new Date(utc);
+            //local.setMinutes(local.getMinutes() - local.getTimezoneOffset());
+            _d =  local.toJSON().slice(0,19);
+            //console.log(_d);
+            $(this).prev().val(_d);
+            //console.log($(_btn).prev().length);
+        };
+
+        $(function () {
+        $("#google_calendar_20161211 label").click(_google_calendar_20161211).keyup(_google_calendar_20161211);
+        _google_calendar_20161211();
+
+        $("#google_calendar_20161211 .set-current").click(_set_current);
+        
+        });
+    </script>
+
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61fb80829bd1f31184dab3de/1fqv6s0jh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+
+</html>

@@ -24,17 +24,19 @@
     <style>
         #exampleModal .modal-dialog.modal-xl {max-width: 900px;}
         button.set-current {
-            font-size: 16px;
-            color: #fff;
-            background: #e0285b;
-            border: 0;
-            padding: 6px 20px;
-            margin-top: 0;
-            display: block;
-            position: relative;
-            overflow: visible;
-            border-radius: 5px;
-            margin-top: 10px;
+            font-size: 12px;
+			color: #fff;
+			background: #e0285b;
+			border: 0;
+			width: 150px;
+			padding: 6px 8px;
+			margin-top: 0;
+			display: block;
+			position: relative;
+			overflow: visible;
+			border-radius: 0px 5px 5px 0px;
+			margin-top: 0;
+			margin-left: 0px;
         }
         .result a {
             display: block;
@@ -43,6 +45,7 @@
             padding: 16px;
             margin-bottom: 16px;
             border-radius:5px;
+            word-break:break-all;
         }
         .modal-footer>:not(:first-child) {
             margin-left: 0.25rem;
@@ -56,6 +59,9 @@
             overflow: visible;
             border-radius: 5px;
         }
+		.aliCenter{
+			align-items: center;
+		}
     </style>
 </head>
 
@@ -702,42 +708,58 @@ With All Images, Graphics </h2>
                 <div id="google_calendar_20161211">
                     <div class="row">
                         <div class="col-md-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Title</label>
-                                <input type="text" class="form-control" name="title" onfocus="this.select();" />
-                            </div>
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Title</span>
+                                	<input type="text" class="form-control" name="title" onfocus="this.select();" />
+                                </label>
+                            
                         </div>
                         <div class="col-md-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Start Date</label>
-                                <input type="datetime-local" class="form-control" name="date_start" />
-                                <button type="button" class="set-current">Set Current Time</button>
-                            </div>
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Start Date</span>
+									<div class="d-flex aliCenter">
+										<input type="datetime-local" class="form-control" name="date_start" />
+										<button type="button" class="set-current">Set Current Time</button>
+									</div>
+	                            </label>
+                           
                         </div>
                         <div class="col-md-6 col-xs-12">
-                            <div class="form-group">
-                                <label>END DATE</label>
-                                <input type="datetime-local" class="form-control" name="date_end" />
-                                <button type="button" class="set-current">Set Current Time</button>
-                            </div>
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">END DATE</span>
+									<div class="d-flex aliCenter">
+										<input type="datetime-local" class="form-control" name="date_end" />
+										<button type="button" class="set-current">Set Current Time</button>
+									</div>
+	                            </label>
+                            
                         </div>
                         <div class="col-md-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Location</label>
-                                <input type="text" name="location" class="form-control" onfocus="this.select();" /> </label>
-                            </div>
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Location</span>
+	                                <input type="text" name="location" class="form-control" onfocus="this.select();" /> 
+	                            </label>
+                            
                         </div>
-                        <div class="col-md-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Details</label>
-                                <textarea name="details" class="form-control" onfocus="this.select();"></textarea>
-                            </div>
+                        <div class="col-md-6 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Details</span>
+	                                <textarea name="details" class="form-control" onfocus="this.select();"></textarea>
+	                            </label>
+                            
                         </div>
-                        <div class="col-md-12 col-xs-12">
-                            <div class="form-group">
-                                <label>INVITATION EMAIL ADDRESSES: (split email addresses in separate lines)</label>
-                                <textarea name="add" class="form-control" onfocus="this.select();" placeholder="foo@bar.bazblog@pulipuli.info"></textarea>
-                            </div>
+                        <div class="col-md-6 col-xs-12">
+                            
+                                <label style="display:block;width:100%;">
+                                	<span style="display:block;width:100%;">Invitation Email Address</span>
+	                                <textarea name="add" class="form-control" onfocus="this.select();" placeholder="foo@bar.bazblog@pulipuli.info"></textarea>
+	                            </label>
+                            
                         </div>
                         <div class="col-md-12 col-xs-12">
                             <div class="form-group">
@@ -864,19 +886,19 @@ With All Images, Graphics </h2>
     </script>
 
 
-<!--Start of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/61fb80829bd1f31184dab3de/1fqv6s0jh';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61fb80829bd1f31184dab3de/1fqv6s0jh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 
 </html>
